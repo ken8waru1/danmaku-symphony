@@ -19,6 +19,8 @@
   },
   "homepage": "https://github.com/ken8waru1/danmaku-symphony#readme",
   "dependencies": {
+    "file-loader": "^4.1.0",
+    "url-loader": "^2.1.0",
     "webpack": "^4.36.1"
   },
   "devDependencies": {
