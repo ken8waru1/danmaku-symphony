@@ -2,7 +2,7 @@
 
 Danmaku Symphony is a verticl-scrolling shooter with a fairly simple objective: just don't get hit. Players will dodge enemy projectiles while also attempting to shoot enemies down in order to increase their score count. Players can move anywhere within the game bounds as enemies spawn from the top of the screen. The game is inspired by a sub-genre of shoot 'em ups known in Japan as "danmaku" or lovingly called "bullet hell" in the English community, given this name due to the high density of the projectiles that the enemy characters emit which makes these games especially brutal. The aim of Danmaku Symphony is to attempt to replicate this gameplay while still providing a fair player experience. The game is particularly inspired by the [Touhou](https://en.wikipedia.org/wiki/Touhou_Project) series. 
 
-##How to play
+## How to play
 Players must shoot down enemies while avoiding their bullets. It only takes one hit to take you down so stay alert! 
 
 * Arrow keys: move
@@ -11,10 +11,10 @@ Players must shoot down enemies while avoiding their bullets. It only takes one 
 
 Current enemies include blue and orange hexagons, the blue hexagon enemies will go down with a single shot but the orange enemies are more resiliant. 
 
-##Technologies used
+## Technologies used
 Danmaku Symphony is built entirely using pure Javascript and HTML5 Canvas. 
 
-##Implementation Details
+## Implementation Details
 Enemies and projectiles are created with their own respective generic class. For example, this is the particle class which all bullets will share. 
 
 ```js 
@@ -74,7 +74,7 @@ export const hexagonBullet2 = (enemy) => {
   }
 ```
 
-##Future Implementation
+## Future Implementation
 * More enemy variants
 * Stage select
 
