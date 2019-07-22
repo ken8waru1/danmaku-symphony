@@ -1,6 +1,6 @@
 ## Overview 
 
-Danmaku Symphony is a verticl-scrolling shooter with a fairly simple objective: just don't get hit. Players will dodge enemy projectiles while also attempting to shoot enemies down in order to increase their score count. Players can move anywhere within the game bounds as enemies spawn from the top of the screen. The game is inspired by a sub-genre of shoot 'em ups known in Japan as "danmaku" or lovingly called "bullet hell" in the English community, given this name due to the high density of the projectiles that the enemy characters emit which makes these games especially brutal. The aim of Danmaku Symphony is to attempt to replicate this gameplay while still providing a fair player experience. The game is particularly inspired by the [Touhou](https://en.wikipedia.org/wiki/Touhou_Project) series. 
+Danmaku Symphony is a verticl-scrolling shooter with a fairly simple objective: just don't get hit. Players will dodge enemy projectiles while also attempting to shoot enemies down in order to increase their score count. Players can move anywhere within the game bounds as enemies spawn from the top of the screen. The game is inspired by a sub-genre of shoot 'em ups known in Japan as "danmaku" or affectionately called "bullet hell" in the English community, given this name due to the high density of the projectiles that the enemy characters emit which makes these games especially brutal. The aim of Danmaku Symphony is to attempt to replicate this gameplay while still providing a fair player experience. The game is particularly inspired by the [Touhou](https://en.wikipedia.org/wiki/Touhou_Project) series. 
 
 ## How to play
 Players must shoot down enemies while avoiding their bullets. It only takes one hit to take you down so stay alert! Players can enter focus mode in order to slow down their movement for better control, this also changes their bullet behavior and allows them to see their hitbox (shown as a blue dot).
@@ -10,6 +10,12 @@ Players must shoot down enemies while avoiding their bullets. It only takes one 
 * Shift: hold to enter focus mode
 
 Current enemies include blue and orange hexagons, the blue hexagon enemies will go down with a single shot but the orange enemies are more resiliant. 
+
+Strike down your foes while avoiding being striken down
+![](https://i.imgur.com/TjTYzCX.gif)
+
+Sometimes you need a bit more precision to squeeze through gaps in enemy fire
+![](https://i.imgur.com/GgBO0wz.gif)
 
 ## Technologies used
 Danmaku Symphony is built entirely using pure Javascript and HTML5 Canvas. 
