@@ -84,5 +84,4 @@ export const hexagonBullet2 = (enemy) => {
 * More enemy variants
 * Stage select
 
-
-
+python -m SimpleHTTPServer
