@@ -85,3 +85,14 @@ export const hexagonBullet2 = (enemy) => {
 * Stage select
 
 python -m SimpleHTTPServer
+
+
+Bullet Patterns
+```js
+    //triple spread shot
+  let angleT = Direction.getAngleToPlayer(this, this.game.player);
+  this.game.enemyBullets.push(new CreateShotA1(this.game, this.x, this.y, 5, angleT));
+  this.game.enemyBullets.push(new CreateShotA1(this.game, this.x, this.y, 5, angleT + 30 * (Math.PI / 180)));
+  this.game.enemyBullets.push(new CreateShotA1(this.game, this.x, this.y, 5, angleT - 30 * (Math.PI / 180)));
+```
+
