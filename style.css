@@ -4,6 +4,10 @@
   justify-content: center;
 }
 
+#danmaku-symphony {
+  border: 5px solid white;
+}
+
 .game-container {
   display: flex;
   flex-direction: row;
@@ -12,7 +16,7 @@
 }
 
 body {
-  background-color: black;
+  background-image:url('./assets/imperishable_night.png');
   height: 100%;
 }
 
