@@ -9,13 +9,14 @@ Players must shoot down enemies while avoiding their bullets. It only takes one 
 * Z: fire
 * Shift: hold to enter focus mode
 
-Current enemies include blue and orange hexagons, the blue hexagon enemies will go down with a single shot but the orange enemies are more resiliant. 
-
 Strike down your foes while avoiding being striken down
-![](https://i.imgur.com/TjTYzCX.gif)
+![](https://github.com/ken8waru1/danmaku-symphony/blob/master/assets/danmaku01.gif)
 
 Sometimes you need a bit more precision to squeeze through gaps in enemy fire
-![](https://i.imgur.com/GgBO0wz.gif)
+![](https://github.com/ken8waru1/danmaku-symphony/blob/master/assets/danmaku02.gif)
+
+If you're in a tight spot, make use of your bombs, but use them wisely, you only have 3!
+![](https://github.com/ken8waru1/danmaku-symphony/blob/master/assets/danmaku03.gif)
 
 ## Technologies used
 Danmaku Symphony is built entirely using pure Javascript and HTML5 Canvas. 
